@@ -82,3 +82,13 @@ section {
     background-color: #fff;
     color: #000;
 }
+
+/* match styles */
+
+.match {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity .5s ease;
+}
