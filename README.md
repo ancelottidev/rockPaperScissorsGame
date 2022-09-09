@@ -11,7 +11,8 @@ A live version of the project can be found here - https://ancelottidev.github.io
  #### Intro
 
   - The intro at the top contains the player's and the computer's current score.
-  - The score is automatically loaded when the game starts.
+  - In the central part there is a title that gives the user a clear name of the game.
+  - In the lower part there is a button that starts the game.
 
   ![Header and Navigation](/assets/Let's%20Play.png)
 
