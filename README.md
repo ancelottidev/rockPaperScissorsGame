@@ -29,4 +29,43 @@ A live version of the project can be found here - https://ancelottidev.github.io
 
   ![The Game Result](/assets/outcomes-player.png)
 
-  #### 
+  #### Score Board
+
+  - Score board contains the results of how many times the user won and how many times the computer won.
+  - Score board is interactive, so the result is updated automatically.
+
+  ![Score Board](/assets/player-computer.png)
+
+  #### Testing
+
+  - I tested playing this game in: Chrome, Safari and Firefox.
+  - Game results are always correct.
+  - I comfirmed that the color and fonts are easy to read and accessible by running it through lighthouse in devtools.
+
+  ![Testing](/assets/performance.png)
+
+  #### Validator Testings
+
+  - No errors were returned when passing through the official W3C validator.
+  - No error were found when passing through the official (Jigsaw) validator.
+
+  #### Unfixed bugs
+
+  - No unfixed bugs.
+
+  #### Deployment
+
+  - The site was deployed to gitHub pages. The steps to deploy are as follows:
+    - in the GitHub repository, navigate to the Settings tab.
+    - From the source section drop-down menu, select the Master Branch.
+    - Once the master branch has been selected, the page provided the link to the completed website.
+  
+  - The live link can be found here: https://ancelottidev.github.io/rockPaperScissorsGame/
+
+  #### Media
+
+  - The icons for rock, paper and scissors are taken from: https://www.flaticon.com/.
+
+  #### Content
+
+  - The content was inpired from Portfolio Project Scope.
