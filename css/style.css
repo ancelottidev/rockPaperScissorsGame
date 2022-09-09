@@ -139,3 +139,14 @@ section {
     transform: rotateY(180deg);
 }
 
+/* unactive and active div styles */
+
+div.unactive {
+    opacity: 0;
+    pointer-events: none;
+}
+div.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
