@@ -48,3 +48,37 @@ section {
     font-weight: 600;
     border-radius: 50px;
 }
+
+/* intro styles */
+
+.intro{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: opacity .5s ease;
+    /* display: none; */
+}
+.intro h1 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 14rem;
+}
+.intro button {
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    bottom: 18%;
+    font-size: 25px;
+    background-color: red;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: .4s ease;
+}
+.intro button:hover {
+    background-color: #fff;
+    color: #000;
+}
