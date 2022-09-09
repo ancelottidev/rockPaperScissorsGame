@@ -45,3 +45,54 @@ function playMatch(){
     });
 }
 playMatch();
+
+//Compare Hands Function
+function computerHands(playerChoice, computerChoice){
+    const winner = document.querySelector('.winner');
+    if(playerChoice === computerChoice){
+        winner.textContent = 'It is a Tie';
+        return;
+    }
+    if(playerChoice === 'rock'){// checking for rock
+        if(computerChoice === 'scissors'){
+            winner.textContent = 'Player Wins';
+            pScore++;
+            updateScore();
+            return;
+        }
+        else{
+            winner.textContent = 'Computer Wins';
+            cScore++;
+            updateScore();
+            return;
+        }
+    }
+    if(playerChoice === 'paper'){// checking for paper
+        if(computerChoice === 'scissors'){
+            winner.textContent = 'Computer Wins';
+            cScore++;
+            updateScore();
+            return;
+        }
+        else{
+            winner.textContent = 'Player Wins';
+            pScore++;
+            updateScore();
+            return;
+        }
+    }
+    if(playerChoice === 'scissors'){// checking for scissors
+        if(computerChoice === 'rock'){
+            winner.textContent = 'Computer Wins';
+            cScore++;
+            updateScore();
+            return;
+        }
+        else{
+            winner.textContent = 'Player Wins';
+            pScore++;
+            updateScore();
+            return;
+        }
+    }
+}
