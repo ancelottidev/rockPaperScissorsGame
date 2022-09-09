@@ -12,3 +12,15 @@ body {
     justify-content: center;
     min-height: 100vh;
 }
+
+/* section styles */
+
+section {
+    background-color: rgb(3, 3, 3);
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    padding: 20px 20px 0 20px;
+    box-shadow: 1px 1px 6px 2px rgba(0,0,0,0.548);
+    position: relative;
+}
